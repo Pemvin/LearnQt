@@ -16,5 +16,9 @@ build.gradle中repositories新增加mavenLocal()及maven { url 'https://maven.al
 
 gradle-wrapper.properties中修改distributionUrl=https\://mirrors.cloud.tencent.com/gradle/gradle-8.10.1-all.zip
 
-2、构建含有多个子项目依赖的主项目时，手动确认下"运行目标"为主项目，否则无法生成apk文件
 
+## 配置QtCreator
+1、构建含有多个子项目依赖的主项目时，手动确认下"运行目标"为主项目，否则无法生成apk文件
+
+
+2、为apk签名
