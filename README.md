@@ -12,7 +12,11 @@ build.gradle中repositories新增加mavenLocal()及maven { url 'https://maven.al
 修改dependencies->classpath 'com.android.tools.build:gradle:8.6.0'版本        
 
 
-修改dependencies->implementation 'androidx.core:core:1.13.1'版本        
+修改dependencies->implementation 'androidx.core:core:1.13.1'版本       
+
+
+修改compileOptions->JavaVersion VERSION_11版本       
+
 
 gradle-wrapper.properties中修改distributionUrl=https\://mirrors.cloud.tencent.com/gradle/gradle-8.10.1-all.zip
 
